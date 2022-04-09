@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .app {
@@ -8,15 +8,17 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: aqua;
 }
 
 .header {
     text-align: center;
     padding: 20px 0;
+    background-color: bisque;
 }
 
 .header h1 {
-    margin: 0 0 10px 0;
+    margin-top: 10px;
 }
 
 .header select {
@@ -24,7 +26,6 @@ body {
 }
 
 .slideshow {
-    background-color: aqua;
     flex: 1;
     position: relative;
     overflow: hidden;
@@ -36,13 +37,13 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: blue;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
     opacity: 0;
     transform: scale(1);
     transition: all .9s ease-in-out;
+    background-color: blueviolet;
 }
 
 .slide:nth-last-child(2) {
